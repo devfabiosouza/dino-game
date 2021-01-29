@@ -1,0 +1,49 @@
+body {
+    background: #fafafa;
+}
+
+.background {
+    position: absolute;
+    bottom: 0px;
+    background-image: url('background.png');
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    -webkit-animation: slideright 600s infinite linear;
+    width: 99%;
+    height: 50%;
+    overflow: hidden;
+}
+
+@keyframes slideright {
+  from {
+      background-position: 60000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+.dino {              /* Estilizando a class dino*/ 
+    position: absolute; /* Posição do dino*/
+    bottom: 0;
+    background-image: url(dino.png);
+    width: 100px;    /* Largura do dino*/
+    height: 60px;   /* Altura do dino*/
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;    /* Largura do cactus*/
+    height: 60px;   /* Altura do cactus*/
+    bottom: 0;
+    background-image: url(cactus.png);      
+}
+
+.game-over {
+  position: absolute;
+  font-size: 50px;
+  font-family: Arial;
+  color: #909090;
+  left: 45%;
+  top: 40%;
+}
