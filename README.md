@@ -3,4 +3,4 @@
 
 :computer: ​Desenvolvido em HTML, CSS e JS, para a aula da Digital Innovation One.
 
-![](C:\workspace\dino-game\example.png)
+![](dino-game\example.png)
